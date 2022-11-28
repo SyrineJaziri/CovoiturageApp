@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Level 1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\level1\\level1.js",
+            "outputCapture": "std"        
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Level 2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\level2\\level2.js",
+            "outputCapture": "std"        
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Level 3",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\level3\\level3.js",
+            "outputCapture": "std"        
+        }
+    ]
+}
